@@ -32,8 +32,10 @@ fetch(url)
           <p> ${lieu.fields.contact}</p>
           <p> ${lieu.fields.infos}</p>
         </div>
+        <div class='btns'>
           <button class="btnSave">Enregistrer</button>
-          <button class="btnDel">X</i></button> `;
+          <button class="btnDel">X</i></button> 
+        </div>`;
             // **  pour supprime la bannier  **
         addDiv.onclick = ('click', (e) => {
             if (e.target.className === "btnDel"){

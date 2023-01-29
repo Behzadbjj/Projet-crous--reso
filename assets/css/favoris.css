@@ -48,7 +48,8 @@ footer button{
   background-color: rgb(148, 8, 20);
   z-index: 999;
   color: white; 
-  height:15vw;
+  height:fit-content;
+  overflow: hidden;
 
 }
 
@@ -103,9 +104,7 @@ img{
   margin-top: 10px;
   margin-right: 20px;
 }
-/* span{
-  font-size: 1.2rem;
-}   */
+
 .divInfoCART{
   width: 80vw;
  margin-right: 50px;
