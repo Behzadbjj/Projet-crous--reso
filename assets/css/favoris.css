@@ -6,7 +6,7 @@ body{
 
 .divContainer {
   width: 100vw;
-  height: 85vh;
+  height: 84vh;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -16,25 +16,28 @@ body{
 footer{
   display: flex;
   width: 100vw;
-  height: 15vh;
+  height: 16vh;
 }
 
-footer button{
-  
+footer a {
   width: 50vw;
-  height: 15vh;
-
+  height: 16vh;
 }
-.myCart a{
+.myCart , .favoris {
   color: rgb(247, 120, 120);
   font-size: 2rem;
   text-decoration: none;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.favoris a{
+.favoris  {
   color: red;
-  font-size: 2rem;
-  text-decoration: none;
+  border-left: 2px solid #444;
+
 }
+
 
 
 .addDiv{
